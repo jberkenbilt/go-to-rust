@@ -1,0 +1,10 @@
+[package]
+name = "runtime-tokio"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+base = { path = "../base" }
+implbox = { path = "../base/implbox" }
+implbox-macros = { path = "../base/implbox/macros" }
+tokio = { version = "1.41.1", features = ["full"] }

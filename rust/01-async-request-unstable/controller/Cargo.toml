@@ -1,0 +1,8 @@
+[package]
+name = "controller"
+version = "0.1.0"
+edition = "2021"
+
+# TODO: make tokio a dev-dependency
+[dependencies]
+tokio = { version = "1.41.1", features = ["full"] }
